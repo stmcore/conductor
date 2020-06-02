@@ -72,7 +72,7 @@ services:
     networks:
       - internal
     ports:
-      - 9200:9200
+      - 8888:9200
       - 9300:9300
     volumes:
       - esdata1:/usr/share/elasticsearch/data
